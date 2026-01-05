@@ -5,9 +5,12 @@ The idea is to listen for if mouse goes to the top and moves it slightly down so
 
 If you hold SHIFT it will trigger it 
 
-#Building 
+# Building 
 
 swiftc TopBounce.swift -o TopBounce.swift
 
+# Running 
+
 ./TopBounce 
 
+you can make launch agent if you want just dont forget to give proper Accessibility permission
