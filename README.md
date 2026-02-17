@@ -1,16 +1,16 @@
 # TopBounce
-MacOS small app that doesnt let you go to the top stoping the menu bar to ever appearing.
+MacOS small app that doesnt let you go to the top, stopping the menu bar from ever appearing.
 
-The idea is to listen for if mouse goes to the top and moves it slightly down so this way it wont trigger the mac menubar appearing.
+The idea is to listen if mouse goes to the top, and move it slightly down so it wont trigger the mac menubar appearing.
 
-If you hold SHIFT it will trigger it 
+If you hold SHIFT it will trigger it.
 
 # Building 
 
-swiftc TopBounce.swift -o TopBounce.swift
+swiftc TopBounce.swift -o TopBounce
 
 # Running 
 
 ./TopBounce 
 
-you can make launch agent if you want just dont forget to give proper Accessibility permission
+You can make launch agent if you want, just give proper Accessibility permission
